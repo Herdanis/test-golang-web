@@ -7,6 +7,6 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Berhasil")
+		fmt.Fprintln(w, "Berhasil test trigger")
 	})
 }
